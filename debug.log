@@ -1,3 +1,9 @@
+[master/BASE 2]
+- remove welome.blade.php
++ add view files
++ add routes & controllers
++ implement middleware for access control
+
 [master/BASE 1]
 + add controller siteController
 + add controller cpanelController

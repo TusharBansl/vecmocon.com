@@ -19,6 +19,8 @@ class Kernel extends HttpKernel
         \vecmocon\Http\Middleware\TrimStrings::class,
         \Illuminate\Foundation\Http\Middleware\ConvertEmptyStringsToNull::class,
         \vecmocon\Http\Middleware\TrustProxies::class,
+
+        \vecmocon\Http\Middleware\accessSite::class,
     ];
 
     /**
@@ -60,6 +62,8 @@ class Kernel extends HttpKernel
         'signed' => \Illuminate\Routing\Middleware\ValidateSignature::class,
         'throttle' => \Illuminate\Routing\Middleware\ThrottleRequests::class,
         'verified' => \Illuminate\Auth\Middleware\EnsureEmailIsVerified::class,
+
+        'cpanel' => \vecmocon\Http\Middleware\accessCpanel::class,
     ];
 
     /**

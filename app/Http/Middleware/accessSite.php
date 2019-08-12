@@ -15,6 +15,9 @@ class accessSite
      */
     public function handle($request, Closure $next)
     {
+      if(url()->current() != url('cpanel') && !Config('site.pref.publish')) {
+        abort(503);
+      } 
       return $next($request);
     }
 }
