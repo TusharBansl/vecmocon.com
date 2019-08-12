@@ -1,0 +1,8 @@
+[master/BASE 0]
++ add debug.log
++ edit readme.md
++ app name
++ .gitignore > remove .env
++ edit .env
++ edit config/app.php
++ git init
