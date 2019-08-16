@@ -1,3 +1,13 @@
+
+[master/BASE 3]
++ populate master and minimal layouts
++ add more config params for cuztomization
++ populate blade files with layouts
++ add toolbox for googlefont
++ add scss for colorswatch
++ implement config & toolbox for webfont
+
+
 [master/BASE 2]
 - remove welome.blade.php
 + add view files
