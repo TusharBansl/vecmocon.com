@@ -1,3 +1,40 @@
+[task]
++ implement minimal.blade.php
+  create bare minimum html
+  - no webfonts
+  - custom heading style
+  -custom hyperlink style
+  
+  <style> {flex}.class to display content in the center of the page  </style>
+
+  error code, err msg => variables
+
++ use minimal.blade.php to show all error pages
++ add section for navigation
+  'navdata' => config('site.pref.nav')
++ add config for navigation
++ implement nav
+
+[issues]
+
+[fix]
+
+[master/DEV 1]
++ build views using sections
++ build custom configs for views
++ integrate views & config to allow customization
+
+[master/BASE 4]
++ add scss _reset.scss
++ add scss _palette.scss
+
++ add scss tools
+
++ add section view nav
++ add section view cards
++ add section view footer
+
+<< we are here . . .
 
 [master/BASE 3]
 + populate master and minimal layouts

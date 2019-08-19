@@ -1,28 +1,4 @@
-{{-- 
-html tag
-head
-  >> meta 
-      initial window setup > scale
-      language >> layout >> unicode utf-8
-      compatibility
-      authors 
-      keywords
-  >> title
-                      text  << cp  << per page
-                      fav-icon << cp  << global
-  >> relative links & imports
-      css files 
-      
-  >> fallback function for cross browser compatability
-      SHIM
-body
-  >> content of the page << inserted
-
-  >> script includes << hardwired
-
- --}}
-
- <!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="{{ app()->getLocale() }}">
   <head>
     
