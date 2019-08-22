@@ -1,21 +1,8 @@
 [task]
-+ implement minimal.blade.php
-  create bare minimum html
-  - no webfonts
-  - custom heading style
-  -custom hyperlink style
-  
-  <style> {flex}.class to display content in the center of the page  </style>
-
-  error code, err msg => variables
-
-+ use minimal.blade.php to show all error pages
-+ add section for navigation
-  'navdata' => config('site.pref.nav')
-+ add config for navigation
-+ implement nav
 
 [issues]
+
+-navigation bar logo not including and the recursive function
 
 [fix]
 
@@ -23,6 +10,10 @@
 + build views using sections
 + build custom configs for views
 + integrate views & config to allow customization
++ build footer
++ populate nav
++ create toolbox/cards
++ build header
 
 [master/BASE 4]
 + add scss _reset.scss
